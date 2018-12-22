@@ -1,0 +1,27 @@
+html {
+  background-color: rgb(25, 83, 212);
+}
+
+body {
+  width: 60%;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: rgb(29, 171, 0);
+  border: 10px solid black;
+}
+
+img {
+  width: 400px;
+  margin: 0 auto;
+  display: block;
+  border: 20px groove gold;
+  border-radius: 100%;
+}
+
+.head {
+  font-family: arial;
+}
+
+.one {
+  color: rgb(254, 18, 229);
+}

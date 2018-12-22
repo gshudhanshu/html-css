@@ -1,0 +1,30 @@
+.circle {
+  height: 100px;
+  width: 100px;
+  border-radius: 100%;
+}
+
+.red {
+  background-color: red;
+}
+
+.blue {
+  background-color: blue;
+  border: 20px;
+  border-color: gold;
+  border-style: groove;
+  background-image: url(../img/puppy.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.margin {
+  width: 200px;
+  height: 200px;
+  border: 20px dashed red;
+  margin: 20px auto;
+}
+
+.nogrow {
+  box-sizing: border-box;
+}

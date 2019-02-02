@@ -1,0 +1,16 @@
+@media (max-width: 599px) {
+  .one{
+    font-size: 1rem;
+  }
+}
+
+@media (min-width: 600px) {
+  .oneAndHalf{
+    font-size: 1.5rem;
+  }
+}
+@media (min-width: 900px) {
+  .two{
+    font-size: 2rem;
+  }
+}

@@ -1,0 +1,22 @@
+p {
+  font-family: 'Roboto', sans-serif;
+  text-transform: uppercase;
+  font-style: italic;
+  letter-spacing: normal;
+}
+
+.one {
+  font-weight: 300;
+}
+
+.two {
+  font-weight: 400;
+}
+
+.three {
+  font-weight: 700;
+}
+
+h1 {
+  text-shadow: 12px 12px 10px red;
+}

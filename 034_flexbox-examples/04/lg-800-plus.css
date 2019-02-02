@@ -1,0 +1,31 @@
+body {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+aside {
+  width: 20%;
+  box-sizing: border-box;
+}
+
+.left {
+  order: 1;
+}
+
+.right {
+  order: 3;
+}
+
+main {
+  width: 60%;
+  box-sizing: border-box;
+  order: 2;
+}
+
+footer, header {
+  width: 100%;
+}
+
+footer {
+  order: 4;
+}

@@ -1,0 +1,30 @@
+
+body {
+  position: relative;
+  /* border: 1px solid black; */
+  margin: auto;
+  padding: 0;
+  width: 692px;
+
+
+}
+
+aside {
+  width: 200px;
+  padding: inherit;
+  padding: inherit;
+  border: 1px solid red;
+  position: absolute;
+
+
+}
+
+main {
+  margin-left: 200px;
+  border: 1px solid red;
+  /* width: 500px; */
+}
+
+p {
+  margin: 0;
+}

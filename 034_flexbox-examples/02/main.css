@@ -1,0 +1,17 @@
+body {
+  padding: 10px;
+  margin: 0;
+  background-image: url("https://images.pexels.com/photos/34950/pexels-photo.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100vh;
+  color: white;
+  font-size: 4em;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  box-sizing: border-box;
+  border: 5px solid red;
+  text-align: center;
+
+}

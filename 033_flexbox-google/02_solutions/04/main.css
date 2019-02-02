@@ -1,0 +1,33 @@
+body {
+  display: flex;
+  flex-flow: row wrap;
+}
+
+div {
+  box-sizing: border-box;
+  /* width: 100%; */
+  height: 100px;
+  background-clip: border-box;
+}
+
+.one{background-image: url("https://media2.fdncms.com/riverfronttimes/imager/u/original/26603341/blues_pup.jpg");}
+.two{background-image: url("https://media2.fdncms.com/riverfronttimes/imager/u/original/26603341/blues_pup.jpg");}
+.three{background-image: url("https://media2.fdncms.com/riverfronttimes/imager/u/original/26603341/blues_pup.jpg");}
+.four{background-image: url("https://media2.fdncms.com/riverfronttimes/imager/u/original/26603341/blues_pup.jpg");}
+.five{background-image: url("https://media2.fdncms.com/riverfronttimes/imager/u/original/26603341/blues_pup.jpg");}
+.six{background-image: url("https://media2.fdncms.com/riverfronttimes/imager/u/original/26603341/blues_pup.jpg");}
+.seven{background-image: url("https://media2.fdncms.com/riverfronttimes/imager/u/original/26603341/blues_pup.jpg");}
+
+
+@media (max-width: 900px) {
+  div {
+    width: 100%;
+  }
+}
+
+@media (min-width: 900px) {
+  .one, .seven {width: 50%; order: 2;}
+  .two {width: 40%; order: 1;}
+  .three {width: 100%; order: 7}
+  .four, .five, .six {width: 50%; order: 3}
+}

@@ -1,0 +1,13 @@
+body {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+aside {
+  width: 50%;
+  box-sizing: border-box;
+}
+
+footer, header {
+  width: 100%;
+}

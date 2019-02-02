@@ -1,0 +1,22 @@
+html, body {
+  margin: 0;
+  padding: 0;
+  border: 1px solid black;
+}
+
+img {
+  width: 20%;
+  float: left;
+  margin: 10px;
+}
+
+p {
+  border: 1px solid red;
+}
+
+.overflow {
+  width: 100px;
+  height: 300px;
+  float: right;
+  overflow: auto;
+}

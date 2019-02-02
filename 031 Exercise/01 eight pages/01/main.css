@@ -1,0 +1,16 @@
+html, body {
+  margin: 0;
+}
+body {
+  display: flex;
+  flex-flow: row wrap;
+  border: 0.5em solid red;
+}
+div {
+  width: 100px;
+  height: 50px;
+  margin: 0.5em;
+  text-align: center;
+  background-color: gray;
+  flex-grow: 1;
+}

@@ -5,26 +5,58 @@ html {
 
 header {
   position: fixed;
-  top: 0;
-  left: 0;
   height: 2.8rem;
   width: 100%;
   background-color: rgba(0,0,0,0.6);
   display: flex;
-  justify-content: space-between;
+  justify-content: center;
   align-items: center;
 }
 
-header div, header nav {
-  background-color: red;
-  width: 300px;
-  height: 60%;
-  margin: 0 0.6rem;
-  font-size: 1.5rem;
-  letter-spacing: 0.7rem;
-  display: flex;
-  align-items: center;
+header div a, header nav {
+    width: 300px;
+    height: 80%;
+    /*background-color: red;*/
+    margin: 0 0.6rem;
+    letter-spacing: 0.5rem;
+    display: flex;
+    align-items: center;
+
 }
+
+/*header a {*/
+    /*border: 1px solid red;*/
+/*}*/
+
+header div:hover, header nav svg:hover {
+    color: #6886a7;
+}
+
+header div h1 {
+    font-size: 1rem;
+}
+
+header nav {
+    justify-content: space-around;
+}
+
+
+
+.idx-hdr-svg {
+     width: 40px;
+     fill: currentColor;
+     /* FOR DEBUGGING ONLY */
+     /*border: 3px solid hotpink;*/
+ }
+
+/*.idx-hdr-svg:hover {*/
+    /*width: 40px;*/
+    /*fill: #6886a7;*/
+    /*!* FOR DEBUGGING ONLY *!*/
+    /*!*border: 3px solid hotpink;*!*/
+/*}*/
+
+
 
 #idx-atf {
     /* layout */
@@ -86,4 +118,26 @@ button {
     padding: .7rem 1.2rem;
     border-radius: 3px;
     text-align: center;
+}
+
+footer nav {
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    background-color: darkturquoise;
+}
+
+footer nav a {
+    display: flex;
+    width: 100%;
+    align-items: center;
+}
+
+footer nav a svg {
+  padding: 0rem 1rem
+}
+
+footer nav a:hover {
+    color: #6886a7;
+    /*border: solid 1px black;*/
 }

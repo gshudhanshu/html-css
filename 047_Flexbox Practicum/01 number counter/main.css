@@ -1,0 +1,39 @@
+div {
+    border: solid 1px #094562;
+}
+
+html, body {
+    margin: 0;
+    padding: 0;
+}
+
+.outer, h1 {
+    display: flex;
+    margin: 2rem;
+    border-radius: 1rem;
+    border: none;
+    justify-content: center;
+}
+
+.inner {
+    display: flex;
+    align-items: center;
+    padding: 2rem 3rem;
+    font-size: 2rem;
+    font-family: Rockwell;
+
+}
+
+.left, .right {
+    background-color: #094562;
+    color: white;
+}
+
+.left {
+    border-top-left-radius: 1rem;
+    border-bottom-left-radius: 1rem;
+}
+.right {
+    border-top-right-radius: 1rem;
+    border-bottom-right-radius: 1rem;
+}
